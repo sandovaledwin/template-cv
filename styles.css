@@ -1,0 +1,123 @@
+body, h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+}
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    padding-top: 30px;
+}
+.container {
+    flex: 1;
+}
+.side-one {
+    background-color: #5687b0;;
+}
+.side-two {
+    background-color: #ffffff;
+}
+.text-title {
+    font-family: 'Barlow Condensed', serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.text-subtitle {
+    font-family: 'Barlow Condensed', serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.text {
+    font-family: 'Montserrat', serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.text-bold {
+    font-weight: 500;
+}
+.text-social {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.text-social i {
+    padding: 0px 10px;
+}
+.section {
+    padding: 0px 30px;
+}
+.section-container {
+    display: flex;
+    flex-direction: column;
+}
+.section-title {
+    display: flex;
+    background-color: #f2f6f9;
+    color: #3a73a2;
+    margin: 15px 0px;
+    justify-content: center;
+}
+.section-row {
+    display: flex;
+    flex-direction: column;
+}
+.section-category {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+.section-value {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+}
+.section-description {
+    color: #222222;
+}
+.separator {
+    padding: 0px 0px 30px 0px;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.profile-image {
+    width: 280px;
+    height: 250px;
+}
+.side-one .section-title {
+    background-color: #618fb6;
+    color: #ffffff;
+}
+.job, .education {
+    padding: 20px 0px;
+}
+.job-position,
+.job-website,
+.job-date,
+.job-description,
+.education-bachelor,
+.education-website,
+.education-date {
+    color: #ffffff;
+    padding: 3px 0px 0px 0px;
+}
+.color-dot-solid {
+    color: #4b7fa9;
+    padding: 0px 2px;
+}
+.color-dot {
+    color: #e5edf3;
+    padding: 0px 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        flex-direction: column-reverse;
+    }
+} 
